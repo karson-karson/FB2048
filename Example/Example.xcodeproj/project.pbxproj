@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843331032F40DB2700E8B7F3 /* FB2048 in Frameworks */ = {isa = PBXBuildFile; productRef = 843331022F40DB2700E8B7F3 /* FB2048 */; };
+		843331062F40DBC100E8B7F3 /* FB2048 in Frameworks */ = {isa = PBXBuildFile; productRef = 843331052F40DBC100E8B7F3 /* FB2048 */; };
 		844B25102F40A8C4008D1B97 /* FB2048 in Frameworks */ = {isa = PBXBuildFile; productRef = 844B250F2F40A8C4008D1B97 /* FB2048 */; };
 		844B25192F40A984008D1B97 /* FB2048 in Frameworks */ = {isa = PBXBuildFile; productRef = 844B25182F40A984008D1B97 /* FB2048 */; };
-		844B25282F40D4E1008D1B97 /* FB2048 in Frameworks */ = {isa = PBXBuildFile; productRef = 844B25272F40D4E1008D1B97 /* FB2048 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,9 +30,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843331062F40DBC100E8B7F3 /* FB2048 in Frameworks */,
 				844B25192F40A984008D1B97 /* FB2048 in Frameworks */,
 				844B25102F40A8C4008D1B97 /* FB2048 in Frameworks */,
-				844B25282F40D4E1008D1B97 /* FB2048 in Frameworks */,
+				843331032F40DB2700E8B7F3 /* FB2048 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +78,8 @@
 			packageProductDependencies = (
 				844B250F2F40A8C4008D1B97 /* FB2048 */,
 				844B25182F40A984008D1B97 /* FB2048 */,
-				844B25272F40D4E1008D1B97 /* FB2048 */,
+				843331022F40DB2700E8B7F3 /* FB2048 */,
+				843331052F40DBC100E8B7F3 /* FB2048 */,
 			);
 			productName = Example;
 			productReference = 844B24FA2F40A6B5008D1B97 /* Example.app */;
@@ -107,7 +110,7 @@
 			mainGroup = 844B24F12F40A6B5008D1B97;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				844B25262F40D4E1008D1B97 /* XCRemoteSwiftPackageReference "FB2048Framework" */,
+				843331042F40DBC100E8B7F3 /* XCRemoteSwiftPackageReference "FB2048Framework" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 844B24FB2F40A6B5008D1B97 /* Products */;
@@ -355,7 +358,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		844B25262F40D4E1008D1B97 /* XCRemoteSwiftPackageReference "FB2048Framework" */ = {
+		843331042F40DBC100E8B7F3 /* XCRemoteSwiftPackageReference "FB2048Framework" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/karson-karson/FB2048Framework";
 			requirement = {
@@ -366,17 +369,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		843331022F40DB2700E8B7F3 /* FB2048 */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FB2048;
+		};
+		843331052F40DBC100E8B7F3 /* FB2048 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 843331042F40DBC100E8B7F3 /* XCRemoteSwiftPackageReference "FB2048Framework" */;
+			productName = FB2048;
+		};
 		844B250F2F40A8C4008D1B97 /* FB2048 */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FB2048;
 		};
 		844B25182F40A984008D1B97 /* FB2048 */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = FB2048;
-		};
-		844B25272F40D4E1008D1B97 /* FB2048 */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 844B25262F40D4E1008D1B97 /* XCRemoteSwiftPackageReference "FB2048Framework" */;
 			productName = FB2048;
 		};
 /* End XCSwiftPackageProductDependency section */

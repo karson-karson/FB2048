@@ -7,6 +7,7 @@ import Combine
 import Foundation
 import Swift
 import SwiftUI
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -39,6 +40,9 @@ public enum SoundTarget : Swift.CaseIterable {
   public func cleanUp()
   public func setVolume(_ volume: Swift.Float)
   @objc deinit
+}
+extension UIKit.UIFont {
+  public static func fb2048RegisterFonts()
 }
 extension FB2048.FB2048View : Swift.Sendable {}
 extension FB2048.SoundTarget : Swift.Equatable {}

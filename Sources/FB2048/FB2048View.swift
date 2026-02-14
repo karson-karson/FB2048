@@ -10,7 +10,9 @@ import SwiftUI
 public struct FB2048View: View {
     @State private var isActive = false
 
-    public init() {}
+    public init() {
+        UIFont.fb2048RegisterFonts()
+    }
 
     public var body: some View {
         Two048View(isActive: $isActive)

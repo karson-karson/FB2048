@@ -21,6 +21,7 @@
 		844B24EF2F40A633008D1B97 /* SairaSemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844B24D12F40A633008D1B97 /* SairaSemiCondensed-Bold.ttf */; };
 		844B24F02F40A633008D1B97 /* Transition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 844B24D82F40A633008D1B97 /* Transition.mp3 */; };
 		844B25212F40ADCA008D1B97 /* FB2048Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B25202F40ADC8008D1B97 /* FB2048Bundle.swift */; };
+		844B252A2F40D790008D1B97 /* UIFont+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844B25292F40D788008D1B97 /* UIFont+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		844B24E02F40A633008D1B97 /* Two048View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two048View.swift; sourceTree = "<group>"; };
 		844B24E12F40A633008D1B97 /* Two048ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Two048ViewModel.swift; sourceTree = "<group>"; };
 		844B25202F40ADC8008D1B97 /* FB2048Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FB2048Bundle.swift; sourceTree = "<group>"; };
+		844B25292F40D788008D1B97 /* UIFont+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		844B24D22F40A633008D1B97 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				844B25292F40D788008D1B97 /* UIFont+Ext.swift */,
 				844B24D12F40A633008D1B97 /* SairaSemiCondensed-Bold.ttf */,
 			);
 			path = Fonts;
@@ -234,6 +237,7 @@
 				844B24E52F40A633008D1B97 /* Two048ViewModel.swift in Sources */,
 				844B24E62F40A633008D1B97 /* FB2048View.swift in Sources */,
 				844B24E72F40A633008D1B97 /* SoundTarget.swift in Sources */,
+				844B252A2F40D790008D1B97 /* UIFont+Ext.swift in Sources */,
 				844B24E82F40A633008D1B97 /* Two048SettingView.swift in Sources */,
 				844B25212F40ADCA008D1B97 /* FB2048Bundle.swift in Sources */,
 				844B24E92F40A633008D1B97 /* LanguageSheet.swift in Sources */,

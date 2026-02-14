@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/karson-karson/FB2048Framework",
       "state" : {
-        "revision" : "60feb7777c265fd100aafc2fd7ffcbc400e247fe",
-        "version" : "0.1.0"
+        "revision" : "04b2aa2483feb02bad9cbb35c3d621e81645d7b3",
+        "version" : "0.1.1"
       }
     }
   ],

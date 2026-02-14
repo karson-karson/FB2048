@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/FB2048.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OTIzy2UOxOiOb5dNxUMNrbUQWZ4=
+		bFri7EWoKU5nV0iUlGlgst2UAUg=
 		</data>
 		<key>Modules/FB2048.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		anXtRrtoSLabLyxs23NUoNXMmB4=
+		LI+wu1rYUtg6rzj5RPTUmO0eKVk=
 		</data>
 		<key>Modules/FB2048.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/FB2048.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		anXtRrtoSLabLyxs23NUoNXMmB4=
+		LI+wu1rYUtg6rzj5RPTUmO0eKVk=
 		</data>
 		<key>Modules/FB2048.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qGnfvoKhQH5CSXPqQyteoYM7Z38=
+		zgmHTTqbldLzWW9jcOlAlgPf30M=
 		</data>
 		<key>Modules/FB2048.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OTIzy2UOxOiOb5dNxUMNrbUQWZ4=
+		bFri7EWoKU5nV0iUlGlgst2UAUg=
 		</data>
 		<key>Modules/FB2048.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QVlLaoTlxOUgPKfFmvPgnmjWWvY=
+		HoZ7s44QuJ+IyufufKHPidF0ZxQ=
 		</data>
 		<key>Modules/FB2048.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/FB2048.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QVlLaoTlxOUgPKfFmvPgnmjWWvY=
+		HoZ7s44QuJ+IyufufKHPidF0ZxQ=
 		</data>
 		<key>Modules/FB2048.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		htnru0XQvekyZqEHmkJNzoB0fhk=
+		Z6D60kT6q9GJJ7qtc0JTCX+DORk=
 		</data>
 		<key>SairaSemiCondensed-Bold.ttf</key>
 		<data>
@@ -96,14 +96,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IHl2/q57x9rwA8oz5m4pkQbRCN/ReodrQcWxfpBdYyg=
+			/nWKOpzmho+OrxoqG++bnRJ+bk6KNAMFKLlSKjIxlrQ=
 			</data>
 		</dict>
 		<key>Modules/FB2048.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sXL+yEXVy69IuaiTj2B9rlq3kpwbhctozc6iY/Le0w4=
+			hd6o/Kh+kCPnX9vW7vWgyH0mhbLuGBqu4u9RPi6j9Ac=
 			</data>
 		</dict>
 		<key>Modules/FB2048.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -117,28 +117,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sXL+yEXVy69IuaiTj2B9rlq3kpwbhctozc6iY/Le0w4=
+			hd6o/Kh+kCPnX9vW7vWgyH0mhbLuGBqu4u9RPi6j9Ac=
 			</data>
 		</dict>
 		<key>Modules/FB2048.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wyKxag99yG/s0aj60teMtBJt+4HxwlfwkDUCCj6MYC0=
+			meNVSBIS8KFt3sADkOCUaEF5YUuXsqYdiBIPLYaOGKU=
 			</data>
 		</dict>
 		<key>Modules/FB2048.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IHl2/q57x9rwA8oz5m4pkQbRCN/ReodrQcWxfpBdYyg=
+			/nWKOpzmho+OrxoqG++bnRJ+bk6KNAMFKLlSKjIxlrQ=
 			</data>
 		</dict>
 		<key>Modules/FB2048.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VpDcVNbn/Nw0sS5rThZqEnXsgARjk3UbcZrwdRYp/qs=
+			IR4zg38HVDEI7IKrFNaYLX2VNl7r5zIVPEet4hxUN/4=
 			</data>
 		</dict>
 		<key>Modules/FB2048.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -152,14 +152,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VpDcVNbn/Nw0sS5rThZqEnXsgARjk3UbcZrwdRYp/qs=
+			IR4zg38HVDEI7IKrFNaYLX2VNl7r5zIVPEet4hxUN/4=
 			</data>
 		</dict>
 		<key>Modules/FB2048.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oUCG8TFSUQvW0oONsnPF8PfGxYnzJnxTPLyaWVPeUQc=
+			IZ3nQ1SiDR4U3cSX8+lT0Saqt99EqVMNKRz6fhuo2Rg=
 			</data>
 		</dict>
 		<key>SairaSemiCondensed-Bold.ttf</key>
