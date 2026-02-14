@@ -1,0 +1,15 @@
+{
+  "originHash" : "955b4f2cf9b42e62d42503fdffad81f6f700c54b1dcadcd0f4585a14afb2239f",
+  "pins" : [
+    {
+      "identity" : "fb2048framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/karson-karson/FB2048Framework",
+      "state" : {
+        "revision" : "60feb7777c265fd100aafc2fd7ffcbc400e247fe",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 3
+}
