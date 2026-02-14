@@ -1,0 +1,45 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios16.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name FB2048
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import AVKit
+import Combine
+import Foundation
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_Concurrency.MainActor @preconcurrency public struct FB2048View : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s6FB20480A4ViewV4bodyQrvp", 0) __
+}
+public enum SoundTarget : Swift.CaseIterable {
+  case lose
+  case win
+  case transition
+  public static func == (a: FB2048.SoundTarget, b: FB2048.SoundTarget) -> Swift.Bool
+  public typealias AllCases = [FB2048.SoundTarget]
+  nonisolated public static var allCases: [FB2048.SoundTarget] {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class NNSoundService {
+  public static let shared: FB2048.NNSoundService
+  public func preloadSounds(targets: [FB2048.SoundTarget])
+  public func playSound(_ target: FB2048.SoundTarget)
+  public func stopSound(_ target: FB2048.SoundTarget)
+  public func cleanUp()
+  public func setVolume(_ volume: Swift.Float)
+  @objc deinit
+}
+extension FB2048.FB2048View : Swift.Sendable {}
+extension FB2048.SoundTarget : Swift.Equatable {}
+extension FB2048.SoundTarget : Swift.Hashable {}

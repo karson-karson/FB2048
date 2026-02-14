@@ -1,0 +1,948 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FB2048",
+    "printedName": "FB2048",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "FB2048"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "FB2048"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FB2048View",
+        "printedName": "FB2048View",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FB2048View",
+                "printedName": "FB2048.FB2048View",
+                "usr": "s:6FB20480A4ViewV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6FB20480A4ViewVACycfc",
+            "mangledName": "$s6FB20480A4ViewVACycfc",
+            "moduleName": "FB2048",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FB20480A4ViewV4bodyQrvp",
+            "mangledName": "$s6FB20480A4ViewV4bodyQrvp",
+            "moduleName": "FB2048",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FB20480A4ViewV4bodyQrvg",
+                "mangledName": "$s6FB20480A4ViewV4bodyQrvg",
+                "moduleName": "FB2048",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6FB20480A4ViewV",
+        "mangledName": "$s6FB20480A4ViewV",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "FB2048"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SoundTarget",
+        "printedName": "SoundTarget",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lose",
+            "printedName": "lose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FB2048.SoundTarget.Type) -> FB2048.SoundTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SoundTarget",
+                    "printedName": "FB2048.SoundTarget",
+                    "usr": "s:6FB204811SoundTargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FB2048.SoundTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SoundTarget",
+                        "printedName": "FB2048.SoundTarget",
+                        "usr": "s:6FB204811SoundTargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FB204811SoundTargetO4loseyA2CmF",
+            "mangledName": "$s6FB204811SoundTargetO4loseyA2CmF",
+            "moduleName": "FB2048"
+          },
+          {
+            "kind": "Var",
+            "name": "win",
+            "printedName": "win",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FB2048.SoundTarget.Type) -> FB2048.SoundTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SoundTarget",
+                    "printedName": "FB2048.SoundTarget",
+                    "usr": "s:6FB204811SoundTargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FB2048.SoundTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SoundTarget",
+                        "printedName": "FB2048.SoundTarget",
+                        "usr": "s:6FB204811SoundTargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FB204811SoundTargetO3winyA2CmF",
+            "mangledName": "$s6FB204811SoundTargetO3winyA2CmF",
+            "moduleName": "FB2048"
+          },
+          {
+            "kind": "Var",
+            "name": "transition",
+            "printedName": "transition",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FB2048.SoundTarget.Type) -> FB2048.SoundTarget",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SoundTarget",
+                    "printedName": "FB2048.SoundTarget",
+                    "usr": "s:6FB204811SoundTargetO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FB2048.SoundTarget.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SoundTarget",
+                        "printedName": "FB2048.SoundTarget",
+                        "usr": "s:6FB204811SoundTargetO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6FB204811SoundTargetO10transitionyA2CmF",
+            "mangledName": "$s6FB204811SoundTargetO10transitionyA2CmF",
+            "moduleName": "FB2048"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SoundTarget",
+                "printedName": "FB2048.SoundTarget",
+                "usr": "s:6FB204811SoundTargetO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SoundTarget",
+                "printedName": "FB2048.SoundTarget",
+                "usr": "s:6FB204811SoundTargetO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FB204811SoundTargetO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6FB204811SoundTargetO2eeoiySbAC_ACtFZ",
+            "moduleName": "FB2048",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FB204811SoundTargetO9hashValueSivp",
+            "mangledName": "$s6FB204811SoundTargetO9hashValueSivp",
+            "moduleName": "FB2048",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FB204811SoundTargetO9hashValueSivg",
+                "mangledName": "$s6FB204811SoundTargetO9hashValueSivg",
+                "moduleName": "FB2048",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FB204811SoundTargetO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6FB204811SoundTargetO4hash4intoys6HasherVz_tF",
+            "moduleName": "FB2048",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FB2048.SoundTarget]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SoundTarget",
+                    "printedName": "FB2048.SoundTarget",
+                    "usr": "s:6FB204811SoundTargetO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FB204811SoundTargetO8allCasesSayACGvpZ",
+            "mangledName": "$s6FB204811SoundTargetO8allCasesSayACGvpZ",
+            "moduleName": "FB2048",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FB2048.SoundTarget]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SoundTarget",
+                        "printedName": "FB2048.SoundTarget",
+                        "usr": "s:6FB204811SoundTargetO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FB204811SoundTargetO8allCasesSayACGvgZ",
+                "mangledName": "$s6FB204811SoundTargetO8allCasesSayACGvgZ",
+                "moduleName": "FB2048",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6FB204811SoundTargetO",
+        "mangledName": "$s6FB204811SoundTargetO",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[FB2048.SoundTarget]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SoundTarget",
+                        "printedName": "FB2048.SoundTarget",
+                        "usr": "s:6FB204811SoundTargetO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NNSoundService",
+        "printedName": "NNSoundService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NNSoundService",
+                "printedName": "FB2048.NNSoundService",
+                "usr": "s:6FB204814NNSoundServiceC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6FB204814NNSoundServiceC6sharedACvpZ",
+            "mangledName": "$s6FB204814NNSoundServiceC6sharedACvpZ",
+            "moduleName": "FB2048",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NNSoundService",
+                    "printedName": "FB2048.NNSoundService",
+                    "usr": "s:6FB204814NNSoundServiceC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6FB204814NNSoundServiceC6sharedACvgZ",
+                "mangledName": "$s6FB204814NNSoundServiceC6sharedACvgZ",
+                "moduleName": "FB2048",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "preloadSounds",
+            "printedName": "preloadSounds(targets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[FB2048.SoundTarget]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SoundTarget",
+                    "printedName": "FB2048.SoundTarget",
+                    "usr": "s:6FB204811SoundTargetO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FB204814NNSoundServiceC13preloadSounds7targetsySayAA11SoundTargetOG_tF",
+            "mangledName": "$s6FB204814NNSoundServiceC13preloadSounds7targetsySayAA11SoundTargetOG_tF",
+            "moduleName": "FB2048",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playSound",
+            "printedName": "playSound(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SoundTarget",
+                "printedName": "FB2048.SoundTarget",
+                "usr": "s:6FB204811SoundTargetO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FB204814NNSoundServiceC9playSoundyyAA0E6TargetOF",
+            "mangledName": "$s6FB204814NNSoundServiceC9playSoundyyAA0E6TargetOF",
+            "moduleName": "FB2048",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopSound",
+            "printedName": "stopSound(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SoundTarget",
+                "printedName": "FB2048.SoundTarget",
+                "usr": "s:6FB204811SoundTargetO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FB204814NNSoundServiceC9stopSoundyyAA0E6TargetOF",
+            "mangledName": "$s6FB204814NNSoundServiceC9stopSoundyyAA0E6TargetOF",
+            "moduleName": "FB2048",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cleanUp",
+            "printedName": "cleanUp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FB204814NNSoundServiceC7cleanUpyyF",
+            "mangledName": "$s6FB204814NNSoundServiceC7cleanUpyyF",
+            "moduleName": "FB2048",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVolume",
+            "printedName": "setVolume(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6FB204814NNSoundServiceC9setVolumeyySfF",
+            "mangledName": "$s6FB204814NNSoundServiceC9setVolumeyySfF",
+            "moduleName": "FB2048",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6FB204814NNSoundServiceC",
+        "mangledName": "$s6FB204814NNSoundServiceC",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FB2048"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "FB2048"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "FB2048",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048Navigation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 189,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048ViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048ViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 356,
+      "length": 11,
+      "value": "\"highScore\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048ViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 393,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048ViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 429,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/FB2048View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 160,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/FB2048View.swift",
+      "kind": "FloatLiteral",
+      "offset": 589,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Core\/SoundTarget.swift",
+      "kind": "Dictionary",
+      "offset": 881,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Core\/SoundTarget.swift",
+      "kind": "FloatLiteral",
+      "offset": 975,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048SettingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 262,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048SettingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 307,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048SettingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2841,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/LanguageSheet.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 10,
+      "value": "\"Language\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/LanguageSheet.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048View.swift",
+      "kind": "Array",
+      "offset": 414,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 512,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin\/Data\/Works\/TestOnly\/FB2048\/Sources\/FB2048\/Two048View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 559,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
